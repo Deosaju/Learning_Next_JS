@@ -15,4 +15,4 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Routing
-![Learn](https://github.com/Deosaju/Learning_Next_JS/blob/main/public/Readme_assets)
+[Learn](https://github.com/Deosaju/Learning_Next_JS/blob/main/public/Readme_assets)
