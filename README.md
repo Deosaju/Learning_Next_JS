@@ -17,3 +17,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Routing
 
 ![routing](./public/Readme_assets/Routing.png)
+![staticgeneration](./public/Readme_assets/StaticGeneration.png)
+![getStaticProps](./public/Readme_assets/getStaticProps-1.png)
+![getStaticProps](./public/Readme_assets/getStaticProps-2.png)
+![linkPrefetch](./public/Readme_assets/LinkPrefetch.png)
+
