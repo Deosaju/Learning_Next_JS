@@ -15,10 +15,4 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Routing
-
-![routing](https://github.com/Deosaju/Learning_Next_JS/blob/main/public/Readme_assets/Routing.png)
-![staticgeneration](https://github.com/Deosaju/Learning_Next_JS/blob/main/public/Readme_assets/StaticGeneration.png)
-![getStaticProps](https://github.com/Deosaju/Learning_Next_JS/blob/main/public/Readme_assets/getStaticProps-1.png)
-![getStaticProps](https://github.com/Deosaju/Learning_Next_JS/blob/main/public/Readme_assets/getStaticProps-2.png)
-![linkPrefetch](https://github.com/Deosaju/Learning_Next_JS/blob/main/public/Readme_assets/linkPrefetch.png)
-
+![Learn](https://github.com/Deosaju/Learning_Next_JS/blob/main/public/Readme_assets)
