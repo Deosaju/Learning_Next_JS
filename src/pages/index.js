@@ -9,6 +9,10 @@ function Home () {
       <Link href="/Nested">
         Blog
       </Link>
+      <br></br>
+      <Link href="/posts">
+        Posts
+      </Link>
     </div>
   )
 }
