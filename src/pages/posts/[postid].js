@@ -22,7 +22,8 @@ export default Post;
 
 // This function tells Next.js to pre-render this page at build time using the props returned by getStaticProps.
 export async function getStaticPaths() {
-    const res = await fetch("http://localhost:3004/products")
+    // const res = await fetch("http://localhost:3004/products")
+    const res = await fetch("https://jsonplaceholder.typicode.com/posts")
     const posts = await res.json()
 
     // Get the paths we want to pre-render based on posts
@@ -53,8 +54,8 @@ export async function getStaticPaths() {
 // This will fetch the post data from the API and pass it to the Post component as a prop.
 export async function getStaticProps(context) {
     const { params } = context;
-    // const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${params.postid}`)
-    const res = await fetch(`http://localhost:3004/products/${params.postid}`)
+    const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${params.postid}`)
+    // const res = await fetch(`http://localhost:3004/products/${params.postid}`)
     const posts = await res.json() 
 
     if(!posts.id) {
