@@ -9,6 +9,7 @@ function posts({ data }) {
                     <div key={post.id}>
                         <Link href={`/posts/${post.id}`} passHref>
                             <h2>{post.title}</h2>
+                            <h2>{post.namew}</h2>
                         </Link>
                         <hr></hr>
                     </div>
@@ -23,12 +24,22 @@ function posts({ data }) {
 export default posts
 
 export async function getStaticProps() {
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts")
+    // const res = await fetch("https://jsonplaceholder.typicode.com/posts")
+    const res = await fetch("http://localhost:3004/products")
     const posts = await res.json()
 
     return {
         props: {
             data: posts
         },
+        revalidate: 1,
     }
+
+    
+
+    // return {
+    //     props: {
+    //         data:  posts.slice(0, 4)
+    //     },
+    // }
 }
