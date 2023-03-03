@@ -18,5 +18,22 @@
             "price": 300,
             "description": "Product 3 description"
         }
+    ],
+    "news": [
+        {
+            "id": 1,
+            "title": "News 1",
+            "content": "News 1 content"
+        },
+        {
+            "id": 2,
+            "title": "News 2",
+            "content": "News 2 content"
+        },
+        {
+            "id": 3,
+            "title": "News 3",
+            "content": "News 3 content"
+        }
     ]
 }
