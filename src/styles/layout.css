@@ -1,0 +1,26 @@
+.layout-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  color: black;
+}
+
+/* Path: src\styles\layout.css */
+.layout-footer {
+  background-color: #fff;
+  color: black;
+  border-top: 1px solid #e5e5e5;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
